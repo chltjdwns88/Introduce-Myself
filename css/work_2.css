@@ -1,0 +1,560 @@
+/* pos */
+
+.posF{
+    margin:0;padding:0;
+    text-align:center;
+    position:absolute;
+    bottom:10px;
+    left:0;
+    width:100%;
+    text-align:center;
+}
+
+.posG{
+    margin:0;padding:0;
+    text-align:center;
+    position:absolute;
+    bottom:10px;
+    left:0;
+    width:100%;
+    text-align:center;
+}
+
+.posH{
+    margin:0;padding:0;
+    text-align:center;
+    position:absolute;
+    bottom:10px;
+    left:0;
+    width:100%;
+    text-align:center;
+}
+
+.posI{
+    margin:0;padding:0;
+    text-align:center;
+    position:absolute;
+    bottom:10px;
+    left:0;
+    width:100%;
+    text-align:center;
+}
+
+/* slide  */
+
+#slideF{
+    margin:0;padding:0;
+    height:600px;
+    position:relative;
+    overflow:hidden;
+}
+
+#slideG{
+    margin:0;padding:0;
+    height:600px;
+    position:relative;
+    overflow:hidden;
+}
+
+#slideH{
+    margin:0;padding:0;
+    height:600px;
+    position:relative;
+    overflow:hidden;
+}
+
+#slideI{
+    margin:0;padding:0;
+    height:600px;
+    position:relative;
+    overflow:hidden;
+}
+
+#slideF input{
+    display:none;
+}
+
+#slideG input{
+    display:none;
+}
+
+#slideH input{
+    display:none;
+}
+
+#slideI input{
+    display:none;
+}
+
+/* image */
+
+.goldcoast1{
+    background-image: url("../images/work/goldcoast/goldcoast1.jpg");
+    background-size:cover;
+}
+
+.goldcoast2{
+    background-image: url("../images/work/goldcoast/goldcoast2.jpg");
+    background-size:cover;
+}
+
+.goldcoast3{
+    background-image: url("../images/work/goldcoast/goldcoast3.jpg");
+    background-size:cover;
+}
+
+.goldcoast4{
+    background-image: url("../images/work/goldcoast/goldcoast4.jpg");
+    background-size:cover;
+}
+
+.goldcoast5{
+    background-image: url("../images/work/goldcoast/goldcoast5.jpg");
+    background-size:cover;
+}
+
+.goldcoast6{
+    background-image: url("../images/work/goldcoast/goldcoast6.jpg");
+    background-size:cover;
+}
+
+.goldcoast7{
+    background-image: url("../images/work/goldcoast/goldcoast7.jpg");
+    background-size:cover;
+}
+
+.goldcoast8{
+    background-image: url("../images/work/goldcoast/goldcoast8.jpg");
+    background-size:cover;
+}
+
+.goldcoast9{
+    background-image: url("../images/work/goldcoast/goldcoast9.jpg");
+    background-size:cover;
+}
+
+.sydney1{
+    background-image: url("../images/work/sydney/sydney1.jpg");
+    background-size:cover;
+}
+
+.sydney2{
+    background-image: url("../images/work/sydney/sydney2.jpg");
+    background-size:cover;
+}
+
+.sydney3{
+    background-image: url("../images/work/sydney/sydney3.jpg");
+    background-size:cover;
+}
+
+.sydney4{
+    background-image: url("../images/work/sydney/sydney4.jpg");
+    background-size:cover;
+}
+
+.sydney5{
+    background-image: url("../images/work/sydney/sydney5.jpg");
+    background-size:cover;
+}
+
+.sydney6{
+    background-image: url("../images/work/sydney/sydney6.jpg");
+    background-size:cover;
+}
+
+.sydney7{
+    background-image: url("../images/work/sydney/sydney7.jpg");
+    background-size:cover;
+}
+
+.sydney8{
+    background-image: url("../images/work/sydney/sydney8.jpg");
+    background-size:cover;
+}
+
+.sydney9{
+    background-image: url("../images/work/sydney/sydney9.jpg");
+    background-size:cover;
+}
+
+.brisbane1{
+    background-image: url("../images/work/brisbane/brisbane1.jpg");
+    background-size:cover;
+}
+
+.brisbane2{
+    background-image: url("../images/work/brisbane/brisbane2.jpg");
+    background-size:cover;
+}
+
+.brisbane3{
+    background-image: url("../images/work/brisbane/brisbane3.jpg");
+    background-size:cover;
+}
+
+.brisbane4{
+    background-image: url("../images/work/brisbane/brisbane4.jpg");
+    background-size:cover;
+}
+
+.brisbane5{
+    background-image: url("../images/work/brisbane/brisbane5.jpg");
+    background-size:cover;
+}
+
+.brisbane6{
+    background-image: url("../images/work/brisbane/brisbane6.jpg");
+    background-size:cover;
+}
+
+.brisbane7{
+    background-image: url("../images/work/brisbane/brisbane7.jpg");
+    background-size:cover;
+}
+
+.brisbane8{
+    background-image: url("../images/work/brisbane/brisbane8.jpg");
+    background-size:cover;
+}
+
+.brisbane9{
+    background-image: url("../images/work/brisbane/brisbane9.jpg");
+    background-size:cover;
+}
+
+.newzealand1{
+    background-image: url("../images/work/newzealand/newzealand1.jpg");
+    background-size:cover;
+}
+
+.newzealand2{
+    background-image: url("../images/work/newzealand/newzealand2.jpg");
+    background-size:cover;
+}
+
+.newzealand3{
+    background-image: url("../images/work/newzealand/newzealand3.jpg");
+    background-size:cover;
+}
+
+.newzealand4{
+    background-image: url("../images/work/newzealand/newzealand4.jpg");
+    background-size:cover;
+}
+
+.newzealand5{
+    background-image: url("../images/work/newzealand/newzealand5.jpg");
+    background-size:cover;
+}
+
+.newzealand6{
+    background-image: url("../images/work/newzealand/newzealand6.jpg");
+    background-size:cover;
+}
+
+.newzealand7{
+    background-image: url("../images/work/newzealand/newzealand7.jpg");
+    background-size:cover;
+}
+
+.newzealand8{
+    background-image: url("../images/work/newzealand/newzealand8.jpg");
+    background-size:cover;
+}
+
+.newzealand9{
+    background-image: url("../images/work/newzealand/newzealand9.jpg");
+    background-size:cover;
+}
+
+/* image slide */
+
+#pos54:checked~ul{
+    margin-left:0%;
+}
+
+#pos55:checked~ul{
+    margin-left:-100%;
+}
+
+#pos56:checked~ul{
+    margin-left:-200%;
+}
+
+#pos57:checked~ul{
+    margin-left:-300%;
+}
+
+#pos58:checked~ul{
+    margin-left:-400%;
+}
+
+#pos59:checked~ul{
+    margin-left:-500%;
+}
+
+#pos60:checked~ul{
+    margin-left:-600%;
+}
+
+#pos61:checked~ul{
+    margin-left:-700%;
+}
+
+#pos62:checked~ul{
+    margin-left:-800%;
+}
+
+#pos63:checked~ul{
+    margin-left:0%;
+}
+
+#pos64:checked~ul{
+    margin-left:-100%;
+}
+
+#pos65:checked~ul{
+    margin-left:-200%;
+}
+
+#pos66:checked~ul{
+    margin-left:-300%;
+}
+
+#pos67:checked~ul{
+    margin-left:-400%;
+}
+
+#pos68:checked~ul{
+    margin-left:-500%;
+}
+
+#pos69:checked~ul{
+    margin-left:-600%;
+}
+
+#pos70:checked~ul{
+    margin-left:-700%;
+}
+
+#pos71:checked~ul{
+    margin-left:-800%;
+}
+
+#pos72:checked~ul{
+    margin-left:0%;
+}
+
+#pos73:checked~ul{
+    margin-left:-100%;
+}
+
+#pos74:checked~ul{
+    margin-left:-200%;
+}
+
+#pos75:checked~ul{
+    margin-left:-300%;
+}
+
+#pos76:checked~ul{
+    margin-left:-400%;
+}
+
+#pos77:checked~ul{
+    margin-left:-500%;
+}
+
+#pos78:checked~ul{
+    margin-left:-600%;
+}
+
+#pos79:checked~ul{
+    margin-left:-700%;
+}
+
+#pos80:checked~ul{
+    margin-left:-800%;
+}
+
+#pos81:checked~ul{
+    margin-left:0%;
+}
+
+#pos82:checked~ul{
+    margin-left:-100%;
+}
+
+#pos83:checked~ul{
+    margin-left:-200%;
+}
+
+#pos84:checked~ul{
+    margin-left:-300%;
+}
+
+#pos85:checked~ul{
+    margin-left:-400%;
+}
+
+#pos86:checked~ul{
+    margin-left:-500%;
+}
+
+#pos87:checked~ul{
+    margin-left:-600%;
+}
+
+#pos88:checked~ul{
+    margin-left:-700%;
+}
+
+#pos89:checked~ul{
+    margin-left:-800%;
+}
+
+/* checkbox */
+
+#pos54:checked~.posF>:nth-child(1){
+    background-color:red;
+}
+
+#pos55:checked~.posF>:nth-child(2){
+    background-color: purple;
+}
+
+#pos56:checked~.posF>:nth-child(3){
+    background-color: salmon;
+}
+#pos57:checked~.posF>:nth-child(4){
+    background-color: seagreen;
+}
+
+#pos58:checked~.posF>:nth-child(5){
+    background-color:  hotpink;
+}
+
+#pos59:checked~.posF>:nth-child(6){
+    background-color: royalblue;
+}
+
+#pos60:checked~.posF>:nth-child(7){
+    background-color: black;
+}
+
+#pos61:checked~.posF>:nth-child(8){
+    background-color: green;
+}
+
+#pos62:checked~.posF>:nth-child(9){
+    background-color: greenyellow;
+}
+
+#pos63:checked~.posG>:nth-child(1){
+    background-color:red;
+}
+
+#pos64:checked~.posG>:nth-child(2){
+    background-color: purple;
+}
+
+#pos65:checked~.posG>:nth-child(3){
+    background-color: salmon;
+}
+
+#pos66:checked~.posG>:nth-child(4){
+    background-color: seagreen;
+}
+
+#pos67:checked~.posG>:nth-child(5){
+    background-color:  hotpink;
+}
+
+#pos68:checked~.posG>:nth-child(6){
+    background-color: royalblue;
+}
+
+#pos69:checked~.posG>:nth-child(7){
+    background-color: black;
+}
+
+#pos70:checked~.posG>:nth-child(8){
+    background-color: green;
+}
+
+#pos71:checked~.posG>:nth-child(9){
+    background-color: greenyellow;
+}
+
+#pos72:checked~.posH>:nth-child(1){
+    background-color:red;
+}
+
+#pos73:checked~.posH>:nth-child(2){
+    background-color: purple;
+}
+
+#pos74:checked~.posH>:nth-child(3){
+    background-color: salmon;
+}
+
+#pos75:checked~.posH>:nth-child(4){
+    background-color: seagreen;
+}
+
+#pos76:checked~.posH>:nth-child(5){
+    background-color:  hotpink;
+}
+
+#pos77:checked~.posH>:nth-child(6){
+    background-color: royalblue;
+}
+
+#pos78:checked~.posH>:nth-child(7){
+    background-color: black;
+}
+
+#pos79:checked~.posH>:nth-child(8){
+    background-color: green;
+}
+
+#pos80:checked~.posH>:nth-child(9){
+    background-color: greenyellow;
+}
+
+#pos81:checked~.posI>:nth-child(1){
+    background-color:red;
+}
+
+#pos82:checked~.posI>:nth-child(2){
+    background-color: purple;
+}
+
+#pos83:checked~.posI>:nth-child(3){
+    background-color: salmon;
+}
+
+#pos84:checked~.posI>:nth-child(4){
+    background-color: seagreen;
+}
+
+#pos85:checked~.posI>:nth-child(5){
+    background-color:  hotpink;
+}
+
+#pos86:checked~.posI>:nth-child(6){
+    background-color: royalblue;
+}
+
+#pos87:checked~.posI>:nth-child(7){
+    background-color: black;
+}
+
+#pos88:checked~.posI>:nth-child(8){
+    background-color: green;
+}
+
+#pos89:checked~.posI>:nth-child(9){
+    background-color: greenyellow;
+}

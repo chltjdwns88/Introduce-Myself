@@ -1,0 +1,535 @@
+.container {
+    width: 100%;  /*가로길이*/
+    max-width: 900px;  /*최대가로길이*/ 
+    margin: auto;  /*elemet끼리의 간격, margin 경계안쪽 */
+    padding: 30px 0 50px 0; /*padding경계로부터 margin*/
+}
+
+.threepic{
+    float:left;
+    padding: 0px 0px 30px 10px;
+    width:20%;
+}
+.secondpic{
+    float:left;
+    padding: 20px 0px 0px 30px;
+    width:20%;
+}
+
+.fourpic{
+    float:left;
+    padding: 0px 0px 0px 30px;
+    width:20%;
+}
+.row{
+    width : 100%;
+    display : flex; /*가로로 차곡차곡 쌓음*/
+    flex-wrap: wrap; /* 여러행에 걸쳐서 요소들이 배치*/
+}
+
+.profile_left{
+    width: 50%;
+}
+
+.profile_left_image{
+    width: 100px;
+}
+
+.profile_right{
+    width: 50%;
+}
+
+h1{
+    font-size: 2.7em;
+    font-weight: 100;
+    color : #747704;
+    font-family : "Roboto", sans-serif;
+}
+
+h4{
+    font-size : 1.2em;
+    color : #747704;
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.name_title{
+    float : right; /* float == 띄운다 오른쪽에 ==> 오른쪽에 띄우도록 해준다 */
+    line-height : 0; /*줄간격 설정*/
+    clear : both; /* 양쪽에 글자가 달라붙지 않도록 해줌 */
+    padding-right : 10px; /*오른쪽부터 10px 떨어지도록 해줌*/
+    display:inline-block;
+}
+
+.laos_image{
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.test{
+    width:100px;
+    height:100px;
+}
+
+ul,
+li{
+    list-style:none;
+    margin:0;padding:0;
+}
+
+ul{
+    margin:0;padding:0;
+    width:1111%;height:100%;transition:1s;
+}
+ul::after{
+    margin:0;padding:0;
+    content:"";display:block;clear:both;
+}
+
+li{
+    margin:0;padding:0;
+    float:left;width:9%;height:100%;
+}
+
+label{
+    margin:0;padding:0;
+    display:inline-block;
+    vertical-align:middle;
+    width:10px;
+    height:10px;
+    border:2px solid #666;
+    background:#fff;
+    transition:0.3s;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+/* pos */
+
+.pos{
+    margin:0;padding:0;
+    text-align:center;
+    position:absolute;
+    bottom:10px;
+    left:0;
+    width:100%;
+    text-align:center;
+}
+
+
+.posA{
+    margin:0;padding:0;
+    text-align:center;
+    position:absolute;
+    bottom:10px;
+    left:0;
+    width:100%;
+    text-align:center;
+}
+
+.posB{
+    margin:0;padding:0;
+    text-align:center;
+    position:absolute;
+    bottom:10px;
+    left:0;
+    width:100%;
+    text-align:center;
+}
+
+/* slide */
+
+#slide{
+    margin:0;padding:0;
+    height:600px;
+    position:relative;
+    overflow:hidden;
+}
+
+#slideA{
+    margin:0;padding:0;
+    height:600px;
+    position:relative;
+    overflow:hidden;
+}
+
+#slideB{
+    margin:0;padding:0;
+    height:600px;
+    position:relative;
+    overflow:hidden;
+}
+
+#slide input{
+    display:none;
+}
+
+#slideA input{
+    display:none;
+}
+
+#slideB input{
+    display:none;
+}
+
+/* image */
+
+.first1{
+    background-image: url("../images/laos/peoples/laos1.jpeg");
+    background-size:cover;
+}
+
+.first2{
+    background-image: url("../images/laos/peoples/laos2.jpeg");
+    background-size:cover;
+}
+
+.first3{
+    background-image: url("../images/laos/peoples/laos3.jpeg");
+    background-size:cover;
+}
+
+.first4{
+    background-image: url("../images/laos/peoples/laos4.jpeg");
+    background-size:cover;
+}
+
+.first5{
+    background-image: url("../images/laos/peoples/laos5.jpeg");
+    background-size:cover;
+}
+
+.first6{
+    background-image: url("../images/laos/peoples/laos6.jpeg");
+    background-size:cover;
+}
+
+.first7{
+    background-image: url("../images/laos/peoples/laos7.jpeg");
+    background-size:cover;
+}
+
+.first8{
+    background-image: url("../images/laos/peoples/laos8.jpeg");
+    background-size:cover;
+}
+
+.first9{
+    background-image: url("../images/laos/peoples/laos9.jpeg");
+    background-size:cover;
+}
+
+.do1{
+    background-image: url("../images/laos/do/do1.jpeg");
+    background-size:cover;
+}
+
+.do2{
+    background-image: url("../images/laos/do/do2.jpeg");
+    background-size:cover;
+}
+
+.do3{
+    background-image: url("../images/laos/do/do3.jpeg");
+    background-size:cover;
+}
+
+.do4{
+    background-image: url("../images/laos/do/do4.jpeg");
+    background-size:cover;
+}
+
+.do5{
+    background-image: url("../images/laos/do/do5.jpeg");
+    background-size:cover;
+}
+
+.do6{
+    background-image: url("../images/laos/do/do6.jpeg");
+    background-size:cover;
+}
+
+.do7{
+    background-image: url("../images/laos/do/do7.jpeg");
+    background-size:cover;
+}
+
+.do8{
+    background-image: url("../images/laos/do/do8.jpeg");
+    background-size:cover;
+}
+
+.do9{
+    background-image: url("../images/laos/do/do9.jpeg");
+    background-size:cover;
+}
+
+.place1{
+    background-image: url("../images/laos/place/place1.jpeg");
+    background-size:cover;
+}
+
+.place2{
+    background-image: url("../images/laos/place/place2.jpeg");
+    background-size:cover;
+}
+
+.place3{
+    background-image: url("../images/laos/place/place3.jpeg");
+    background-size:cover;
+}
+
+.place4{
+    background-image: url("../images/laos/place/place4.jpeg");
+    background-size:cover;
+}
+
+.place5{
+    background-image: url("../images/laos/place/place5.jpeg");
+    background-size:cover;
+}
+
+.place6{
+    background-image: url("../images/laos/place/place6.jpeg");
+    background-size:cover;
+}
+
+.place7{
+    background-image: url("../images/laos/place/place7.jpeg");
+    background-size:cover;
+}
+
+.place8{
+    background-image: url("../images/laos/place/place8.jpeg");
+    background-size:cover;
+}
+
+.place9{
+    background-image: url("../images/laos/place/place9.jpeg");
+    background-size:cover;
+}
+
+
+
+/* image slide */
+
+#pos1:checked~ul{
+    margin-left:0%;
+}
+
+#pos2:checked~ul{
+    margin-left:-100%;
+}
+
+#pos3:checked~ul{
+    margin-left:-200%;
+}
+
+#pos4:checked~ul{
+    margin-left:-300%;
+}
+
+#pos5:checked~ul{
+    margin-left:-400%;
+}
+
+#pos6:checked~ul{
+    margin-left:-500%;
+}
+
+#pos7:checked~ul{
+    margin-left:-600%;
+}
+
+#pos8:checked~ul{
+    margin-left:-700%;
+}
+
+#pos9:checked~ul{
+    margin-left:-800%;
+}
+
+#pos10:checked~ul{
+    margin-left:0%;
+}
+
+#pos11:checked~ul{
+    margin-left:-100%;
+}
+
+#pos12:checked~ul{
+    margin-left:-200%;
+}
+
+#pos13:checked~ul{
+    margin-left:-300%;
+}
+
+#pos14:checked~ul{
+    margin-left:-400%;
+}
+
+#pos15:checked~ul{
+    margin-left:-500%;
+}
+
+#pos16:checked~ul{
+    margin-left:-600%;
+}
+
+#pos17:checked~ul{
+    margin-left:-700%;
+}
+
+#pos18:checked~ul{
+    margin-left:-800%;
+}
+
+#pos19:checked~ul{
+    margin-left:0%;
+}
+
+#pos20:checked~ul{
+    margin-left:-100%;
+}
+
+#pos21:checked~ul{
+    margin-left:-200%;
+}
+
+#pos22:checked~ul{
+    margin-left:-300%;
+}
+
+#pos23:checked~ul{
+    margin-left:-400%;
+}
+
+#pos24:checked~ul{
+    margin-left:-500%;
+}
+
+#pos25:checked~ul{
+    margin-left:-600%;
+}
+
+#pos26:checked~ul{
+    margin-left:-700%;
+}
+
+#pos27:checked~ul{
+    margin-left:-800%;
+}
+
+/* checkbox */
+
+#pos1:checked~.pos>:nth-child(1){
+    background-color:red;
+}
+
+#pos2:checked~.pos>:nth-child(2){
+    background-color: purple;
+}
+
+#pos3:checked~.pos>:nth-child(3){
+    background-color: salmon;
+}
+#pos4:checked~.pos>:nth-child(4){
+    background-color: seagreen;
+}
+
+#pos5:checked~.pos>:nth-child(5){
+    background-color:  hotpink;
+}
+
+#pos6:checked~.pos>:nth-child(6){
+    background-color: royalblue;
+}
+
+#pos7:checked~.pos>:nth-child(7){
+    background-color: black;
+}
+
+#pos8:checked~.pos>:nth-child(8){
+    background-color: green;
+}
+
+#pos9:checked~.pos>:nth-child(9){
+    background-color: greenyellow;
+}
+
+#pos10:checked~.posA>:nth-child(1){
+    background-color:red;
+}
+
+#pos11:checked~.posA>:nth-child(2){
+    background-color: purple;
+}
+
+#pos12:checked~.posA>:nth-child(3){
+    background-color: salmon;
+}
+
+#pos13:checked~.posA>:nth-child(4){
+    background-color: seagreen;
+}
+
+#pos14:checked~.posA>:nth-child(5){
+    background-color:  hotpink;
+}
+
+#pos15:checked~.posA>:nth-child(6){
+    background-color: royalblue;
+}
+
+#pos16:checked~.posA>:nth-child(7){
+    background-color: black;
+}
+
+#pos17:checked~.posA>:nth-child(8){
+    background-color: green;
+}
+
+#pos18:checked~.posA>:nth-child(9){
+    background-color: greenyellow;
+}
+
+#pos19:checked~.posB>:nth-child(1){
+    background-color:red;
+}
+
+#pos20:checked~.posB>:nth-child(2){
+    background-color: purple;
+}
+
+#pos21:checked~.posB>:nth-child(3){
+    background-color: salmon;
+}
+
+#pos22:checked~.posB>:nth-child(4){
+    background-color: seagreen;
+}
+
+#pos23:checked~.posB>:nth-child(5){
+    background-color:  hotpink;
+}
+
+#pos24:checked~.posB>:nth-child(6){
+    background-color: royalblue;
+}
+
+#pos25:checked~.posB>:nth-child(7){
+    background-color: black;
+}
+
+#pos26:checked~.posB>:nth-child(8){
+    background-color: green;
+}
+
+#pos27:checked~.posB>:nth-child(9){
+    background-color: greenyellow;
+}
